@@ -1,0 +1,44 @@
+.button1 {
+    background-color: white;
+    text-decoration: none;
+    color: #f18d9e;
+    display: flex;
+    width: 100%;
+    line-height: 100%;
+    border: 3px solid #f18d9e;
+    padding: 5px;
+}
+
+.button1:hover {
+    color: red;
+    background-color: #f1f1f2;
+}
+
+br {   
+    content: "";
+    margin: 2em;
+    display: block;
+    margin-bottom: -20px; 
+ }
+
+ h1 {
+     color: white;
+     text-shadow: 5px 5px 5px black;
+     margin-bottom: 30px;
+ }
+
+ .hero {
+     width: 300px;
+     height: auto;
+ }
+
+ .flex {
+     margin-left: 100px;
+     margin-bottom: 30px;
+ }
+
+ .space {
+     height: 30px;
+ }
+
+

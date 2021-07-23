@@ -1,0 +1,13 @@
+.image {
+    object-fit: contain;
+    height: 700px;
+    width: auto;
+}
+
+.thumbs-wrapper {
+    display: none;
+}
+
+.carousel-root {
+    height: 800px;
+}
