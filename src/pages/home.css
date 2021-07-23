@@ -41,4 +41,14 @@ br {
      height: 30px;
  }
 
+ @media only screen and (max-width: 600px) {
+    .adicional {
+        display: none;
+    }
+    .flex {
+      margin-left: unset;
+      margin-right: 200px;
+    }
+  }
+
 

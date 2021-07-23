@@ -9,9 +9,9 @@ export const Home = () => {
     <div className="container">
         <div className="space"></div>
         <div className="flex">
-        <img className="hero" src={hero} alt="principal"></img>
-        <img className="hero" src={hero2} alt="principal"></img>
-        <img className="hero" src={hero3} alt="principal"></img>
+            <img className="hero" src={hero} alt="principal"></img>
+            <img className="hero adicional" src={hero2} alt="principal"></img>
+            <img className="hero adicional" src={hero3} alt="principal"></img>
         </div>
         <h1>O amor está no ar!</h1>
         <Link className="button1" to="/duck">Aniversário do Thiago no Duck and Duck, 2018</Link><br />
