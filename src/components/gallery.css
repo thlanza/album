@@ -4,6 +4,15 @@
     width: auto;
 }
 
+.box {
+    background-image: url('../assets/valentine.jpg');
+    height: 900px;
+}
+
+
+
+
+
 .thumbs-wrapper {
     display: none;
 }
@@ -13,7 +22,13 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .image {
+        height: 500px;
+    }
     .box {
-        margin-bottom: 80px;
+        height: 650px;
+    }
+    .carousel-root {
+        height: 650px;
     }
   }

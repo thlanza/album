@@ -10,8 +10,7 @@ export const Gallery = (props) => {
 let images = props.images;
 let collectionName = props.name;
 return (
-  <div className="box">
-  <Carousel>
+  <Carousel className="box">
     {images.map(image => (
     <div>
       <img className="image"
@@ -21,6 +20,6 @@ return (
     </div>
     ))}
   </Carousel>
-  </div>
+ 
 )
 };
