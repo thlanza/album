@@ -26,7 +26,7 @@ let outback = [
 'Outback-8','Outback-9','Outback-10','Outback-11'
 ];
 let paris6 = [
-'Paris-2018-1','Paris-2018-2','Paris-2018-3','Paris-2018-4',
+'Paris6-2018-1','Paris6-2018-2','Paris6-2018-3','Paris6-2018-4',
 ];
 let parapente = [
 'parapente-2018-1'
@@ -75,7 +75,7 @@ export const ApplicationRoutes = () => (
         <Route exact path="/paisagens"><Gallery images={paisagens} name="Paisagens"/></Route>
         <Route exact path="/outback"><Gallery images={outback} name="Outback"/></Route>
         <Route exact path="/paris6"><Gallery images={paris6} name="Paris 6"/></Route>
-        <Route exact path="/paripente"><Gallery images={parapente} name="Parapente"/></Route>
+        <Route exact path="/parapente"><Gallery images={parapente} name="Parapente"/></Route>
         <Route exact path="/ouropreto"><Gallery images={ouropreto} name="Ouro Preto"/></Route>
         <Route exact path="/ourobranco"><Gallery images={ourobranco} name="Ouro Branco"/></Route>
         <Route exact path="/montagens"><Gallery images={montagens} name="Montagens"/></Route>

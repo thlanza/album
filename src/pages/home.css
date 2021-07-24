@@ -3,10 +3,11 @@
     text-decoration: none;
     color: #f18d9e;
     display: flex;
-    width: 100%;
+    width: 92%;
     line-height: 100%;
     border: 3px solid #f18d9e;
     padding: 5px;
+    margin: 0 auto;
 }
 
 .container {
