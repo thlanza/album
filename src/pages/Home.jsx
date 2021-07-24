@@ -20,7 +20,7 @@ export const Home = () => {
         <Link className="button1" to="/zecabaleiro">Show do Zeca Baleiro</Link><br />
         <Link className="button1" to="/paisagens">Paisagens</Link><br />
         <Link className="button1" to="/outback">Outback</Link><br />
-        <Link className="button1" to="/paris6">Outback</Link><br />
+        <Link className="button1" to="/paris6">Paris 6</Link><br />
         <Link className="button1" to="/parapente">Parapente</Link><br />
         <Link className="button1" to="/ouropreto">Ouro Preto</Link><br />
         <Link className="button1" to="/ourobranco">Ouro Branco</Link><br />
