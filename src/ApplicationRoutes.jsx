@@ -51,6 +51,9 @@ let guanabara = [
 'guanabara-2018-1','guanabara-2018-2','guanabara-2018-3',
 ];
 let foz = [];
+let pe_de_goiaba = [
+'pe de goiaba 1', 'pe de goiaba 2', 'pe de goiaba 3', 'pe de goiaba 4'
+]
 for(let i = 1; i < 80; i++){
     foz.push('fozDoIguacu-'+i)
 };
@@ -84,5 +87,8 @@ export const ApplicationRoutes = () => (
         <Route exact path="/foz"><Gallery images={foz} name="Foz do Iguaçu"/></Route>
         <Route exact path="/formatura"><Gallery images={formatura} name="Formatura da Carol em Hospedagem no Cefet"/></Route>
         <Route exact path="/deadfish"><Gallery images={deadFish} name="Show do Dead Fish"/></Route>
+        <Route exact path="/pe_de_goiaba"><Gallery images={pe_de_goiaba} name="Pé de Goiaba, 31/07/2021"/></Route>
+        <Route exact path="/a_classificar"><Gallery images={aClassificar} name="Fotos a Classificar"/></Route>
+        
     </>
 )
