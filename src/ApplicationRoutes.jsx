@@ -67,6 +67,12 @@ let aClassificar = [];
 for(let i = 1; i<19; i++) {
     aClassificar.push('aClassificar-'+i);
 };
+let jaToInno = [
+ 'jaToInno1', 'jaToInno2', 'jaToInno3', 'jaToInno4'
+];
+let jaToInno2 = [
+    'jaToInno1', 'jaToInno2', 'jaToInno3', 'jaToInno4', 'jaToInno5'
+];
 
 export const ApplicationRoutes = () => (
     <>
@@ -89,6 +95,7 @@ export const ApplicationRoutes = () => (
         <Route exact path="/deadfish"><Gallery images={deadFish} name="Show do Dead Fish"/></Route>
         <Route exact path="/pe_de_goiaba"><Gallery images={pe_de_goiaba} name="Pé de Goiaba, 31/07/2021"/></Route>
         <Route exact path="/a_classificar"><Gallery images={aClassificar} name="Fotos a Classificar"/></Route>
-        
+        <Route exact path="/jatoinno1"><Gallery images={jaToInno} name="JaToInno primeira vez, 20/08"/></Route>
+        <Route exact path="/jatoinno2"><Gallery images={jaToInno2} name="JaToInno segunda vez, 27/08"/></Route>
     </>
 )
