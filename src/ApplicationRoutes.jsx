@@ -71,7 +71,7 @@ let jaToInno = [
  'jaToInno1', 'jaToInno2', 'jaToInno3', 'jaToInno4'
 ];
 let jaToInno2 = [
-    'jaToInno1', 'jaToInno2', 'jaToInno3', 'jaToInno4', 'jaToInno5'
+    '2jaToInno1', '2jaToInno2', '2jaToInno3', '2jaToInno4', '2jaToInno5'
 ];
 
 export const ApplicationRoutes = () => (

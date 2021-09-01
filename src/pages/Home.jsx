@@ -29,6 +29,8 @@ export const Home = () => {
         <Link className="button1" to="/guanabara">Guanabara</Link><br />
         <Link className="button1" to="/foz">Foz do Iguaçu</Link><br />
         <Link className="button1" to="/deadfish">Show do Dead Fish</Link><br />
+        <Link className="button1" to="/jatoinno">JaToInno, 20/08/2021</Link><br />
+        <Link className="button1" to="/jatoinno2">JaToInno, segunda visita, 27/08/2021</Link><br />
         <Link className="button1" to="/pe_de_goiaba">Pé de Goiaba, 31/07/2021</Link><br />
     </div>
     )
