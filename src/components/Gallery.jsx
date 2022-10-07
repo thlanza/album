@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
 const buildURL = imagePath =>
-  `https://thiago-carol-album.herokuapp.com/${imagePath}.jpg`;
+  `https://album.fly.dev/${imagePath}.jpg`;
 
 export const Gallery = (props) => {
 let images = props.images;
